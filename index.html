@@ -3,16 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Antonio Chenge</title>
+    <title>Antonio Chenge</title>
 </head>
 <body>
-    <button onclick="window.location.href='index.html'">Experiencia</button>
-    <button onclick="window.location.href='index.html'">Habilidades y Proyectos</button>
-    <button onclick="window.location.href='index.html'">Educación</button>
-    <button onclick="window.location.href='index.html'">Contacto</button>
+    <button onclick="window.location.href=href='#proyectos'">Proyectos</button>
+    <button onclick="window.location.href=href='#habilidades'">Habilidades</button>
+
+    <button onclick="window.location.href=href='#contacto'">Contacto</button>
     <button onclick="window.location.href='index.html'">Español</button>
     <button onclick="window.location.href='index.html'">English</button>
     <h1>Curriculum Vitae - Antonio Chenge</h1>
+    <h2>Perfil Profesional</h2>
+    <p>
+        Estudiante de Matemáticas Aplicadas y Computación (UNAM). Mi verdadera pasión es la programación: dado un problema, pienso en su flujo de inputs y outputs, y construyo la solución paso a paso, función por función, casi como en programación competitiva. Ese enfoque práctico es el que aplico en cada proyecto de este portafolio, siguiendo un flujo de trabajo profesional: control de versiones, documentación y avance incremental. Aún no tengo experiencia profesional formal, pero este portafolio es mi forma de demostrar cómo trabajo — y estoy buscando una pasantía donde pueda seguir creciendo como desarrollador aportando esa misma disciplina.  
+    </p>
     
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+    <p>
+        <strong>Simulador de Sistemas N-Body</strong> (2026): Como parte de mi proyecto final de cálculo vectorial, desarrollé un simulador en tiempo real de interacción gravitacional entre múltiples cuerpos, construido en C++ con renderizado en OpenGL. En vez de partir de la teoría, empecé por definir qué necesitaba entrar (posición, masa, velocidad de cada cuerpo) y qué necesitaba salir en cada frame (nueva posición, trayectoria renderizada) — de ahí construí la lógica del struct Body y los integradores numéricos (Euler y Runge-Kutta 4) pieza por pieza, apoyándome de herramientas de IA para acelerar la iteración y depuración del código, hasta llegar a una simulación funcional con cámara controlable y trazado de trayectorias.
+    </p>
+    <p><strong>Stack:</strong> C++, OpenGL, GLFW </p>
+    <p><strong>Repo:</strong> <a href="https://github.com/AntonioChYngon/n-body-simulation" target="_blank">github.com/AntonioChYngon/n-body-simulation</a></p>
+    </section>
+
+    <section id="habilidades">
+    <h2>Habilidades</h2>
+        <h3>Lenguajes y Herramientas</h3>
+        <ul>
+            <li>C++ (Nivel Intermedio) - Estructuras de datos y algoritmos</li>
+            <li>HTML/CSS (En desarrollo activo)</li>
+            <li>Git/GitHub - Control de versiones, flujos de trabajo con commits incrementales</li>
+            <li>LaTex - Documentación técnica y desarrollo de contenido académico</li>
+        </ul>
+        <h3>Otros</h3>
+        <ul>
+        <li>Inglés (Nivel Avanzado) - Respaldado por experiencia laboral en Estados Unidos.</li>
+        <li>Comunicación y trabajo frente a grupos grandes</li>       
+        </ul>
+
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>
+            <strong>Correo Electrónico:</strong> anto196@hotmail.com
+        </p>
+        <p>
+            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chenge-yduñate-antonio-emmanuel-99a27b26a/" target="_blank">linkedin.com/in/antonio-chenge</a>
+        </p>
+        <p>
+            <strong>GitHub:</strong> <a href="https://github.com/AntonioChYngon" target="_blank">github.com/AntonioChYngon</a>
+    </section>
 </body>
 </html>
